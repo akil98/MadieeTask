@@ -28,8 +28,7 @@ Low-level language contains instructions that are understandable by a computer. 
 ## Task 7: Object in OOP
 An object is an instance of a class and an abstract datatype with some characteristics. When a class is defined, no memory is allocated but when it is instantiated that is, an object is created, memory is allocated.
 
-`<
-class employee 
+`<class employee 
 { 
     char name[20]; 
     int id; 
