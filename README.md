@@ -2,15 +2,15 @@
 
 ## Task 1: What is Linux?
 Linux is an open-source unix-like operating system. It enables communication between computer hardware and software/application. Kernel, System Libraries and System Utility are the primary components of Linux. The architechture comprises of Hardware, kernel, shell and user applications.
-# 1. cd 
+#### 1. cd 
 cd command changes your current directory.
-# 2. pwd
+#### 2. pwd
 pwd prints the current working directory.
-# 3. mkdir
+#### 3. mkdir
 mkdir creates a directory
-# 4. rmdir
+#### 4. rmdir
 rmdir removes a directory
-# 5. touch
+#### 5. touch
 touc creates a file based on the extension but not opens it, unlike 'vi'
 
 ## Task 2: Linux Kernel
@@ -27,6 +27,7 @@ Low-level language contains instructions that are understandable by a computer. 
 
 ## Task 7: Object in OOP
 An object is an instance of a class and an abstract datatype with some characteristics. When a class is defined, no memory is allocated but when it is instantiated that is, an object is created, memory is allocated.
+
 `<
 class employee 
 { 
