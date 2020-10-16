@@ -1,4 +1,4 @@
-### chadura
+### Task
 
 ## Task 1: What is Linux?
 Linux is an open-source unix-like operating system. It enables communication between computer hardware and software/application. Kernel, System Libraries and System Utility are the primary components of Linux. The architechture comprises of Hardware, kernel, shell and user applications.
@@ -20,7 +20,7 @@ The Linux Kernel is the main component of a Linux operating system. It acts as a
 A 32-bit system accesses 2^32 memory addresses i.e 4GB of RAM whereas 64-bit system accesses 2^64 memory addresses which handles more than 4GB of RAM easily. For 32-bit, it can access memory of maximum 4,294,967,296 bytes and for 64-bit, it can access memory of maximum 18,446,744,073,709,551,616 bytes.
 
 ## Task 4: What is Git
-Git is an open-source control system used to handle all sized projects. Using Git, changes done in a project can be easily tracked
+Git is an open-source control system used to handle all sized projects. Using Git, changes done in a project can be easily tracked . git version 2.28.0.windows.1(using Windows machine)
 
 ## Task 6: Low-level language and High-level language
 Low-level language contains instructions that are understandable by a computer. eg: assembly language. High-level language contains software programs and scripts. eg: PHP
@@ -40,4 +40,27 @@ int main()
 { 
    employee e1; // e1 is a object  
 } 
+```
+## Task 8: python code to print your linux distribution name and kernel
+version.
+```
+import platform
+import os
+print("Kernel Version:", platform.release())
+print("Linux OS Name:", platform.version())
+
+```
+## Task 9:python code using function, file input and print each line with line
+number in the terminal.
+```
+def readFile(file):
+	Lines = file.readlines()
+	count = 1
+	for line in Lines: 
+	    print("Line {}: {}".format(count, line.strip()))
+	    count += 1
+
+if __name__ == '__main__':
+	file1 = open('task8.py', 'r') 
+	readFile(file1)
 ```
