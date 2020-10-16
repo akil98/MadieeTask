@@ -1,6 +1,6 @@
 ### chadura
 
-- [x] Task 1: What is Linux?
+- [] Task 1: What is Linux?
 Linux is an open-source unix-like operating system. It enables communication between computer hardware and software/application. Kernel, System Libraries and System Utility are the primary components of Linux. The architechture comprises of Hardware, kernel, shell and user applications.
 #### 1. cd 
 cd command changes your current directory.
